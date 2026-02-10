@@ -1,0 +1,65 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+
+}
+html,body, #root{
+    height:100%;
+    width:100%;
+}
+main{
+    height:100%;
+    width:100%;
+    padding:2.5rem;
+    display:flex;
+    gap: 1rem;
+}
+main .left, main .right{
+    height:100%;
+    flex-basis:50%;
+    border-radius: 0.7rem 2rem;
+}
+
+/* main .left .review
+{
+    position: absolute;
+    bottom:1rem;
+    right:1rem;
+    background-color: rgb(14, 200, 200);
+    color:rgb(120, 11, 11);
+    padding:0.5rem 2rem;
+    border-radius: 0.7rem 2rem;
+    cursor:pointer;
+    user-select: none;
+} */
+main .left .review {
+    position: absolute;
+    left: 46rem;              /* move to left side */
+    bottom: 7%;             /* around lower-middle */
+    background-color: rgb(14, 200, 200);
+    color: rgb(120, 11, 11);
+    padding: 0.5rem 2rem;
+    border-radius: 0.7rem 2rem;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(50%); /* keeps it visually balanced */
+}
+
+
+main .left{
+    /* background-color: rgb(127, 36, 36); */
+}
+.left .code ,.code pre , .code pre code{
+    height:100%;
+    width:100%;
+   margin:-0.28rem;
+    border-radius: 0.7rem 2rem;
+   
+}
+
+main .right{
+    background-color: rgb(11, 3, 42);
+    padding:1rem 2rem;
+    color:aliceblue
+}
